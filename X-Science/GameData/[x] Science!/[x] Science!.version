@@ -1,6 +1,6 @@
 {
     "NAME":"[x] Science!",
-    "URL":"https://themoose.co.uk/ksp/%5Bx%5D%20Science!.version",
+    "URL":"https://raw.githubusercontent.com/nomad3k/KSP-X-Science/master/X-Science/GameData/%5Bx%5D%20Science!/%5Bx%5D%20Science!.version",
     "DOWNLOAD":"https://themoose.co.uk/ksp/downloads.html",
     "CHANGE_LOG_URL":"https://themoose.co.uk/ksp/CHANGES.md",
     "VERSION":
@@ -12,7 +12,7 @@
     "KSP_VERSION":
     {
         "MAJOR":1,
-        "MINOR":4,
-        "PATCH":5
+        "MINOR":99,
+        "PATCH":99
     }
 }

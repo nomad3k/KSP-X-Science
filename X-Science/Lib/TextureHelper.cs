@@ -23,7 +23,8 @@ namespace ScienceChecklist
 			var iconStream = Assembly.GetExecutingAssembly( ).GetManifestResourceStream( resource ).ReadToEnd( );
 			if( iconStream == null )
 				return null;
-			tex.LoadImage( iconStream );
+			// TODO: Fix deprecated call
+			// tex.LoadImage( iconStream );
 			tex.Apply( );
 			return tex;
 		}
@@ -36,7 +37,8 @@ namespace ScienceChecklist
 			{
 				var bytes = File.ReadAllBytes<T>( filename );
 				Texture2D texture = new Texture2D( width, height, TextureFormat.ARGB32, false );
-				texture.LoadImage( bytes );
+				// TODO: Fix deprecated call
+				// texture.LoadImage( bytes );
 				return texture;
 			}
 			else

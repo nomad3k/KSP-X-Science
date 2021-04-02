@@ -2,8 +2,6 @@
 using UnityEngine;
 using KSP.UI.Screens;
 
-
-
 namespace ScienceChecklist
 {
 	class UnifiedButton
